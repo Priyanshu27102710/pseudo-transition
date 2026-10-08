@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hello ::before {
+    content:"✨";
+}
+
+.hi ::after {
+    content:"✨";
+}
+
+
+.btn{
+
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: #0a0101;
+    border: 5px solid #ed0731;
+    color: #20a0ba;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.btn::after{
+
+    content:"NEW";
+    background-color: #ed0731;
+    position: absolute;
+    border-radius: 5px;
+    top: -5px;
+    right: -40px;
+    font-size: 15px;
+
+}
+
+.btn:hover{
+    background-color: #111010;
+    color: #fcf7f7;
+    border: 5px solid #edeeee;
+    transition-duration: 0.5s;
+}
+
+
+
+
+
+
+
+
+

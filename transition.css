@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+   margin: 50px auto;
+    border: 2px solid #0d0b0c;
+}
+
+h1{
+    text-align: center;
+    margin: 50px auto;
+    border: 2px solid #0d0b0c;
+    height: 200px;
+    width: 200px;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    transition-property:background-color, color;
+    transition-timing-function:cubic-bezier(0.54,-0.41, 0, 0.81);
+    transition: 0.5s cubic-bezier(0.54,-0.41, 0, 0.81) all;
+
+}
+
+
+h1:hover{
+    background-color: #065530;
+    color: #bd1212;
+    border-radius: 50%;
+    
+}
+
